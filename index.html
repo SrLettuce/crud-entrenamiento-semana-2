@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Gestion de datos</title>
+</head>
+
+<body>
+
+    <body>
+        <!-- Contenedor principal centrado -->
+        <div class="container">
+            <h1>Gestión de productos</h1>
+            <!-- Formulario oculto de ID para editar productos -->
+            <form id="product-form">
+                <input type="hidden" id="product-id" />
+                <!-- Campo para ingresar el nombre del producto -->
+                <label>
+                    Nombre:
+                    <input type="text" id="name" required />
+                </label>
+                <label>
+                    Precio:
+                    <input type="number" id="price" required step="0.01" min="0" />
+                </label>
+                <button type="submit" id="btn-submit">Agregar producto</button>
+            </form>
+
+            <ul id="product-list"></ul>
+        </div>
+        
+    <!-- Enlace al archivo JavaScript que contiene la lógica CRUD -->
+        <script src="./script/gestion_de_datos.js"></script>
+    </body>
+
+</html>
