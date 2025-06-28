@@ -36,7 +36,7 @@ Proyecto front-end que implementa las operaciones básicas de un CRUD (Crear, Le
 
 1. Clona o descarga el proyecto:
    ```bash
-   git clone <URL del repositorio>
+   git clone https://github.com/SrLettuce/crud-entrenamiento-semana-2.git
 
 ## src/script/gestion_de_datos.js
 Contiene toda la lógica CRUD:
